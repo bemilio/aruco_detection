@@ -1,0 +1,3 @@
+/home/emilio/Repositories/aruco_detection/build/CMakeFiles/rebuild_cache.dir
+/home/emilio/Repositories/aruco_detection/build/CMakeFiles/aruco-tracker.dir
+/home/emilio/Repositories/aruco_detection/build/CMakeFiles/edit_cache.dir

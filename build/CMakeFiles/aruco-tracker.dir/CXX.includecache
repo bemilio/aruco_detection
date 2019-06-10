@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ArucoDetector.hpp
+opencv2/core.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/aruco.hpp
+-
+
+/home/emilio/Repositories/aruco_detection/src/ArucoDetector.cpp
+ArucoDetector.hpp
+/home/emilio/Repositories/aruco_detection/src/ArucoDetector.hpp
+
+/home/emilio/Repositories/aruco_detection/src/main.cpp
+

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/aruco-tracker.dir/src/main.cpp.o CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o  -o aruco-tracker 
