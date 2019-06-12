@@ -116,6 +116,24 @@ aruco__tracker_EXTERNAL_OBJECTS =
 aruco-tracker: CMakeFiles/aruco-tracker.dir/src/main.cpp.o
 aruco-tracker: CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o
 aruco-tracker: CMakeFiles/aruco-tracker.dir/build.make
+aruco-tracker: /home/emilio/Repositories/robotology-superbuild/build/install/lib/libYARP_init.so.3.1.1
+aruco-tracker: /home/emilio/Repositories/robotology-superbuild/build/install/lib/libYARP_sig.so.3.1.1
+aruco-tracker: /usr/local/lib/libopencv_dnn.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_gapi.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_ml.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_objdetect.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_photo.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_stitching.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_video.so.4.1.0
+aruco-tracker: /home/emilio/Repositories/robotology-superbuild/build/install/lib/libYARP_OS.so.3.1.1
+aruco-tracker: /usr/local/lib/libopencv_calib3d.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_features2d.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_flann.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_highgui.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_videoio.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_imgcodecs.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_imgproc.so.4.1.0
+aruco-tracker: /usr/local/lib/libopencv_core.so.4.1.0
 aruco-tracker: CMakeFiles/aruco-tracker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emilio/Repositories/aruco_detection/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable aruco-tracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aruco-tracker.dir/link.txt --verbose=$(VERBOSE)
