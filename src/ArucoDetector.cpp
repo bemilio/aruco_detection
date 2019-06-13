@@ -16,6 +16,10 @@ bool acquireTrackerMarkerId(int attempts){
 
 ArucoDetector::ArucoDetector(ArucoDetectorParameters parameters):
     parameters_(parameters){
+    
+    if(parameters_.detection_type==BOARD){
+        board_ = cv::aruco::GridBoard::create(parameters.markers_in_board_x, parameters.markers_in_board_y, parameters.marker_size_meters, parameters.marker_separation_meters, &parameters.aruco_dictionary, parameters.marker_ids_in_board[0]);
+    }
 }
 
 int ArucoDetector::getDetectionType()
@@ -64,8 +68,8 @@ bool ArucoDetector::detectMarkerGridPose(cv::Mat input_image){
         return 0;
     }
     bool board_found = 0;
-    for(int i=0; i<parameters_.marker_ids_in_board.size(), i++){
-        std::vector<int>::iterator iterator_tracked_id = std::find( ids.begin(), ids.end(), parameters_.marker_id_to_track);
+    for(int i=0; i<parameters_.marker_ids_in_board.size(); i++){
+        std::vector<int>::iterator iterator_tracked_id = std::find( ids.begin(), ids.end(), parameters_.marker_ids_in_board[i]);
         if(iterator_tracked_id!= ids.end()){
         
             board_found = 1;
@@ -76,7 +80,7 @@ bool ArucoDetector::detectMarkerGridPose(cv::Mat input_image){
     
     if(board_found){
         std::vector<cv::Mat> rvecs, tvecs;
-        cv::aruco::estimatePoseBoard(corners, ids, board, parameters_.camMatrix, parameters_.distCoeffs, rvecs, tvecs);
+        cv::aruco::estimatePoseBoard(corners, ids, board_, parameters_.camMatrix, parameters_.distCoeffs, rvecs, tvecs);
         last_known_position_= rvecs[0];
         last_known_orientation_= tvecs[0];
         return 1;
@@ -88,12 +92,5 @@ bool ArucoDetector::detectMarkerGridPose(cv::Mat input_image){
     }
     
 }
-
-
-
-bool ArucoDetection::ArucoDetector::detectMarkerGridPose(cv::Mat)
-{
-    
-};
 
 }

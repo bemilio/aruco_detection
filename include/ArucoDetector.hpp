@@ -16,9 +16,12 @@ typedef struct{
     std::vector<int> marker_ids_in_board;
     int marker_id_to_track; 
     float marker_size_meters;
+    float marker_separation_meters;
     cv::Mat camMatrix;
     cv::Mat distCoeffs;
     cv::aruco::Dictionary aruco_dictionary;
+    int markers_in_board_x;
+    int markers_in_board_y;
 }ArucoDetectorParameters;
     
     
@@ -27,7 +30,7 @@ class ArucoDetector{
 
 public:
     ArucoDetector(ArucoDetectorParameters);
-    ~ArucoDetector();
+    ~ArucoDetector(){};
     bool detectMarkerPose(cv::Mat);
     bool detectMarkerGridPose(cv::Mat);
     void setTrackedMarkerId(int id);
@@ -42,7 +45,7 @@ private:
 //     cv::InputArray distortion_coeffs_;
     cv::Mat  last_known_position_;
     cv::Mat last_known_orientation_;
-    
+    cv::Ptr<cv::aruco::GridBoard> board_;
     
     ArucoDetectorParameters parameters_;
 };
@@ -50,5 +53,5 @@ private:
 
 }
 
-#endif ARUCO_DETECTOR_H
+#endif
 

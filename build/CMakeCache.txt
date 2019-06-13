@@ -205,6 +205,9 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for OPENCV.
+OPENCV_DIR:PATH=OPENCV_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/local/lib/cmake/opencv4
 
@@ -405,7 +408,7 @@ CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
-FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.1.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][cfound components:  aruco opencv_core highgui opencv_imgproc opencv_calib3d ][v4.1.0()]
 //ADVANCED property for variable: YARP_NO_DEPRECATED_WARNINGS
 YARP_NO_DEPRECATED_WARNINGS-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run

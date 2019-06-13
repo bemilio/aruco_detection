@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/emilio/Repositories/aruco_detection/include -isystem /home/emilio/Repositories/robotology-superbuild/build/install/include -isystem /usr/local/include/opencv4 
+CXX_INCLUDES = -isystem /usr/local/include/opencv4 -I/home/emilio/Repositories/aruco_detection/include -isystem /home/emilio/Repositories/robotology-superbuild/build/install/include 
 

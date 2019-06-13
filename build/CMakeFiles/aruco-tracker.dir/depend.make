@@ -3,6 +3,8 @@
 
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: ../include/ArucoDetector.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: ../src/ArucoDetector.cpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/aruco.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/aruco/dictionary.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
@@ -84,6 +86,11 @@ CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/opencv.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/photo.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/shape.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/shape/emdL1.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -96,10 +103,27 @@ CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/stitching/warpers.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/superres.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/video.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/video/background_segm.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/video/tracking.hpp
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/log.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp
+CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o: /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp
 
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: ../include/ArucoDetector.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: ../src/main.cpp
@@ -118,6 +142,8 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /home/emilio/Repositories/robotolog
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/Searchable.h
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/Value.h
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/api.h
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/aruco.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/aruco/dictionary.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/calib3d.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/core/affine.hpp
@@ -199,6 +225,11 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/opencv_modules.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/photo.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/shape.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/shape/emdL1.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -211,8 +242,25 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/stitching/warpers.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/superres.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/video.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/video/background_segm.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/video/tracking.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videoio.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/log.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp
+CMakeFiles/aruco-tracker.dir/src/main.cpp.o: /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp
 

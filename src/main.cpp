@@ -4,10 +4,8 @@
 
 
 
-namespace ArucoDetection{
-
-static bool readCameraParameters(string filename, Mat &camMatrix, Mat &distCoeffs) {
-    FileStorage fs(filename, FileStorage::READ);
+static bool readCameraParameters(std::string filename, cv::Mat &camMatrix, cv::Mat &distCoeffs) {
+    cv::FileStorage fs(filename, cv::FileStorage::READ);
     if(!fs.isOpened())
         return false;
     fs["camera_matrix"] >> camMatrix;
@@ -28,14 +26,14 @@ int main(int argc, char **argv) {
     
     cv::aruco::Dictionary aruco_dictionary = cv::aruco::getPredefinedDictionary(cv::aruco::DICT_4X4_50);
     cv::Mat camMatrix, distCoeffs;
-    bool ok = readCameraParameters("/home/emilio/Documents/calib_parameters_wiko_fever", &camMatrix, &distCoeffs);
+    bool ok = readCameraParameters("/home/emilio/Documents/calib_parameters_wiko_fever", camMatrix, distCoeffs);
     if (!ok)
         printf("Camera parameters not found");
     float marker_size_meters=0.083;
     int marker_id_to_track =1;
     std::vector<int> marker_ids_in_board = {0, 1, 2, 3};
     
-    ArucoDetectorParameters aruco_detector_parameters;
+    ArucoDetection::ArucoDetectorParameters aruco_detector_parameters;
     aruco_detector_parameters.detection_type = BOARD;    
     if(aruco_detector_parameters.detection_type == BOARD){
         aruco_detector_parameters.marker_ids_in_board = marker_ids_in_board;
@@ -49,8 +47,11 @@ int main(int argc, char **argv) {
     aruco_detector_parameters.distCoeffs = distCoeffs;
     aruco_detector_parameters.marker_size_meters = marker_size_meters;
     aruco_detector_parameters.aruco_dictionary = aruco_dictionary;
+    aruco_detector_parameters.markers_in_board_x = 2;
+    aruco_detector_parameters.markers_in_board_y = 2;
+    aruco_detector_parameters.marker_separation_meters = 0.012;
     
-    ArucoDetector aruco_detector(aruco_detector_parameters);
+    ArucoDetection::ArucoDetector aruco_detector(aruco_detector_parameters);
     cv::VideoCapture input_video;
     //opens standard camera. Modify to make it more general
     input_video.open(0);
@@ -74,4 +75,3 @@ int main(int argc, char **argv) {
 //     
 }
 
-}

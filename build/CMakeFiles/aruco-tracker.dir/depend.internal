@@ -4,6 +4,8 @@
 CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o
  ../include/ArucoDetector.hpp
  /home/emilio/Repositories/aruco_detection/src/ArucoDetector.cpp
+ /usr/local/include/opencv4/opencv2/aruco.hpp
+ /usr/local/include/opencv4/opencv2/aruco/dictionary.hpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/affine.hpp
@@ -85,6 +87,11 @@ CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o
  /usr/local/include/opencv4/opencv2/opencv.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/photo.hpp
+ /usr/local/include/opencv4/opencv2/shape.hpp
+ /usr/local/include/opencv4/opencv2/shape/emdL1.hpp
+ /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp
+ /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp
+ /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp
  /usr/local/include/opencv4/opencv2/stitching.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -97,10 +104,27 @@ CMakeFiles/aruco-tracker.dir/src/ArucoDetector.cpp.o
  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp
+ /usr/local/include/opencv4/opencv2/superres.hpp
+ /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp
  /usr/local/include/opencv4/opencv2/video.hpp
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
+ /usr/local/include/opencv4/opencv2/videostab.hpp
+ /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+ /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp
+ /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp
+ /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp
+ /usr/local/include/opencv4/opencv2/videostab/log.hpp
+ /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp
+ /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+ /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp
+ /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+ /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp
+ /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp
+ /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp
 CMakeFiles/aruco-tracker.dir/src/main.cpp.o
  ../include/ArucoDetector.hpp
  /home/emilio/Repositories/aruco_detection/src/main.cpp
@@ -119,6 +143,8 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o
  /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/Searchable.h
  /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/Value.h
  /home/emilio/Repositories/robotology-superbuild/build/install/include/yarp/os/api.h
+ /usr/local/include/opencv4/opencv2/aruco.hpp
+ /usr/local/include/opencv4/opencv2/aruco/dictionary.hpp
  /usr/local/include/opencv4/opencv2/calib3d.hpp
  /usr/local/include/opencv4/opencv2/core.hpp
  /usr/local/include/opencv4/opencv2/core/affine.hpp
@@ -200,6 +226,11 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o
  /usr/local/include/opencv4/opencv2/opencv.hpp
  /usr/local/include/opencv4/opencv2/opencv_modules.hpp
  /usr/local/include/opencv4/opencv2/photo.hpp
+ /usr/local/include/opencv4/opencv2/shape.hpp
+ /usr/local/include/opencv4/opencv2/shape/emdL1.hpp
+ /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp
+ /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp
+ /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp
  /usr/local/include/opencv4/opencv2/stitching.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp
@@ -212,7 +243,24 @@ CMakeFiles/aruco-tracker.dir/src/main.cpp.o
  /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp
  /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp
  /usr/local/include/opencv4/opencv2/stitching/warpers.hpp
+ /usr/local/include/opencv4/opencv2/superres.hpp
+ /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp
  /usr/local/include/opencv4/opencv2/video.hpp
  /usr/local/include/opencv4/opencv2/video/background_segm.hpp
  /usr/local/include/opencv4/opencv2/video/tracking.hpp
  /usr/local/include/opencv4/opencv2/videoio.hpp
+ /usr/local/include/opencv4/opencv2/videostab.hpp
+ /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp
+ /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp
+ /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp
+ /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp
+ /usr/local/include/opencv4/opencv2/videostab/log.hpp
+ /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp
+ /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp
+ /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp
+ /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp
+ /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp
+ /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp
+ /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp
